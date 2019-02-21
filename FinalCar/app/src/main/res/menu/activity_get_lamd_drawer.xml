@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/nav_home"
+                android:title="الصفحه الرئيسيه"/>
+        <item
+                android:id="@+id/nav_appointment"
+                android:icon="@drawable/nav_appointment"
+                android:title="اضافة موعد"/>
+        <item
+                android:id="@+id/nav_calender"
+                android:icon="@drawable/home_calender"
+                android:title="التقويم"/>
+        <item
+                android:id="@+id/nav_student"
+                android:icon="@drawable/student_ic"
+                android:title="الطلاب"/>
+
+        <item
+                android:id="@+id/nav_car"
+                android:icon="@drawable/nav_car"
+                android:title="المركبات"/>
+    </group>
+
+    <item android:title="الاتصال">
+        <menu>
+            <!--<item-->
+                    <!--android:id="@+id/nav_share"-->
+                    <!--android:icon="@drawable/ic_menu_share"-->
+                    <!--android:title="Share"/>-->
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="الخروج"/>
+        </menu>
+    </item>
+
+</menu>

@@ -44,5 +44,8 @@ dependencies {
 
     implementation 'com.rengwuxian.materialedittext:library:2.1.4'
 
-    implementation(group: 'com.getlamd', name: 'getlamd-common', version: '1.0')
+    //RXBinding
+    implementation 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+
+    //implementation(group: 'com.getlamd', name: 'getlamd-common', version: '1.0')
 }
